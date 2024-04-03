@@ -1,0 +1,61 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap');
+
+body::before {
+    content: "";
+    position: fixed;
+    background-repeat: no-repeat;
+    background-position: center;
+    width: 100%;
+    height: 100%;
+    background-image: url('Images/img.png'); /* Substitua 'Images/Logo.png' pelo caminho real do seu logotipo */
+    opacity: 0.1; /* Ajuste conforme necessário */
+    z-index: -1;
+}
+
+body{
+    font-family: "Montserrat", sans-serif;
+
+}
+.conteiner2 {
+    max-width: 100vh /* Largura máxima do contêiner */
+    padding: 20px; /* Espaçamento interno */
+    padding-left:20px;
+    margin-top:30px;
+}
+
+.title{
+    margin-top:30px;
+    text-align: center;
+    font-size: 40px;
+}
+
+/* Estilização para o título (h1) dentro da classe .conteiner2 */
+.conteiner2 h1 {
+    font-size: 32px; /* Tamanho da fonte */
+    margin-bottom: 10px; /* Espaçamento inferior */
+    margin-left:0px
+}
+
+/* Estilização para os parágrafos (p) dentro da classe .conteiner2 */
+.conteiner2 p {
+    font-size: 16px; /* Tamanho da fonte */
+    line-height: 1.5; /* Altura da linha */
+    margin-bottom: 20px; /* Espaçamento inferior */
+    margin-left: 25px; /* Remove as margens */
+
+
+}
+/* Estilização para as listas não ordenadas (UL) dentro da classe .conteiner2 */
+.conteiner2 ul {
+    padding: 0; /* Remove o preenchimento */
+    margin-left:10px; /* Remove as margens */
+
+
+}
+
+/* Estilização para os itens de lista (li) dentro da classe .conteiner2 */
+.conteiner2 li {
+    margin-bottom: 10px; /* Espaçamento inferior entre os itens da lista */
+    margin-left: 50px; /* Remove as margens */
+
+}
